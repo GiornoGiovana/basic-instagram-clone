@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	.icon {
+		@apply h-8 text-gray-800 cursor-pointer
+	}
+	.btn {
+		@apply bg-white border border-gray-300 px-4 py-1 text-gray-600 cursor-pointer rounded-lg
+	}
+	.input {
+		@apply outline-none p-2 border-b border-gray-400 w-full mr-1
+	}
+}
